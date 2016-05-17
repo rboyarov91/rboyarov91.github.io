@@ -8,7 +8,7 @@ url: ""
 # about 5 elements are recomended
 github_username:  rboyarov91
 #codepen_username: your_codepen_username_goes_here
-facebook_username: rboyarov91@gmail.com
+facebook_username: rboyarov91
 #vk_username: your_vk_username_goes_here
 #twitter_username: your_twitter_username_goes_here
 #google_plus_username: your_google_plus_username_goes_here
@@ -33,7 +33,8 @@ avatar: yes
 #avatar_img_path: "imgs/avatar.jpg""
 # You can link to your GitHub image. That way it will get updated
 # automatically whenever you change your GitHub profile picture
-avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
+avatar_img_path: "https://github.com/rboyarov91.png"
+#avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
 
 
 front_img: yes
