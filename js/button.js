@@ -18,7 +18,7 @@ $('a.workLink').click(function(e) {
     console.log("hit the work button");	
     e.preventDefault();
     for (w in workSites) {
-    	window.open(wordSites[w]);
+    	window.open(workSites[w]);
     }
 });
 
