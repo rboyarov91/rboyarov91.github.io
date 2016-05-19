@@ -35,4 +35,20 @@ $('a.playLink').click(function(e) {
     	window.open(playSites[p]);
     }
 });
+addDropdowns();
 });
+function addDropdowns() {
+	for ( p in playSites) {
+		var link = $("<a />", {
+			href : playSites[p],
+			class : "fa fa-2x fa-play dropdownA"
+		});
+		var span = $("<span />" , {
+			text : playSites[p]
+		});
+		var li = $("<li />");
+		$(li).append(link);
+		$(li).append(span);
+		$("ul.dropdown-content").append(li);
+	}
+}

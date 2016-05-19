@@ -57,6 +57,12 @@ li {
     width: 65px;
     height: 65px;
 }
+.dropdown-content > a.dropdownA {
+    border-radius: 100%;
+    border: 2px solid white;
+    width: 65 px;
+    height : 65 px;
+}
 li:hover {
     color: white;
     text-decoration: none;
