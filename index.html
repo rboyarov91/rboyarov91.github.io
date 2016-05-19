@@ -16,7 +16,7 @@ permalink: /
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/button.js"></script>
     </head>
     <body>
@@ -34,9 +34,9 @@ permalink: /
 
                 <ul>
 			
-                    <li><a class="fa fa-2x fa-play playLink" href="#"><span class="description">Play</span></a></li>
-                    <li><a class="fa fa-2x fa-terminal opsLink" href="#"><span class="description">Ops</span></a></li>
-                    <li><a class="fa fa-2x fa-briefcase workLink" href="#"><span class="description">Work</span></a></li>
+                    <li><a class="fa fa-2x fa-play playLink link" href="#"><span class="description">Play</span></a></li>
+                    <li><a class="fa fa-2x fa-terminal opsLink link" href="#"><span class="description">Ops</span></a></li>
+                    <li><a class="fa fa-2x fa-briefcase workLink link" href="#"><span class="description">Work</span></a></li>
                     <li><a class="fa fa-2x fa-envelope" target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><span class="description">Email</span></a></li>
                     <li><a class="fa fa-2x fa-facebook" target="_blank" href="https://facebook.com/"><span class="description">Facebook</span></a></li>
 			
@@ -98,6 +98,7 @@ permalink: /
                     {% endif %}
 
                 </ul>
+		<ul class=submenu></ul>
         </div>
 
     </body>
